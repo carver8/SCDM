@@ -56,5 +56,5 @@ ax.set_title("Wind Speed v Air Temperature")                #Set title
 
 cbar = fig.colorbar(sc)                             #create colorbar  
 cbar.ax.get_yaxis().labelpad = 15                   #Space color bar
-cbar.ax.set_ylabel('Latitude', rotation=270)        #Label colorbar
+cbar.ax.set_ylabel('Latitude ºS', rotation=270)        #Label colorbar
 fig.savefig("SCDM_P2_scat.png", dpi=200)            #Save figure in PNG with a resolution of 200 DPI
