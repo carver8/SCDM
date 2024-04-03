@@ -29,3 +29,9 @@ for i in range(0,3):
 # Add title to figure and plot
 fig.suptitle('False Bay', fontsize = 24, y=0.75)
 plt.show()
+
+
+
+#%%
+coord=[30.3,33.0,-116.5,-119.72]
+cropped_ds = ds.sel(lat=slice(coord[0], coord[1]), lon=slice(coord[2],coord[3]))
